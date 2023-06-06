@@ -186,6 +186,7 @@ aside img{
     flex-direction: row;
     justify-content: center;
 }
+
 }
 
 .form{ 
@@ -263,51 +264,6 @@ aside img{
     background-color: rgb(199, 36, 36);
     
 }
-/*.forminputenviar{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    width: 200px;
-    height: 40px;
-    letter-spacing: 0;
-    background-color: rgba(255,255,255,0.05);
-}
-
-.forminputenviar:hover,
-.forminputenviar:active {
-    letter-spacing: 5px;
-}
-
-.forminputenviar:after,
-.forminputenviar:before {
-    backface-visibility: hidden;
-    border: 1px solid rgba(#fff, 0);
-    bottom: 0px;
-    content: " ";
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    transition: all 280ms ease-in-out;
-    width: 0;
-}
-
-.forminputenviar:after,
-.forminputenviar:before {
-    backface-visibility: hidden;
-    border-color: #fff;
-    transition: width 350ms ease-in-out;
-    width: 70%;
-}
-
-.forminputenviar:hover:before {
-    bottom: auto;
-    top: 0;
-    width: 70%;
-}
-*/
-
-
-  
 
 /* Estilos de Productos */
 .tituloproductos{
@@ -320,6 +276,13 @@ aside img{
     color: rgb(41, 41, 41);
     
 }
+
+.containerproductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /* Estilos Nosotros */
 
@@ -341,6 +304,7 @@ aside img{
     
 }
 
+/* Responsive mq seccion nosotros*/
 @media (max-width: 800px) {
     .imgNosotros{
         width: 330px;
@@ -356,11 +320,11 @@ aside img{
 @media (max-width: 400px) {
     .imgNosotros{
         width: 250px;
-        height: 130px;
+        height: 140px;
     }
 
     .videoNosotros{
-        width: 350px;
-        height: 300px;
+        width: 250px;
+        height: 140px;
     }
 }
