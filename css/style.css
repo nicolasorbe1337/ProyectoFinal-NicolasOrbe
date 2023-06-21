@@ -1,3 +1,4 @@
+/*
 *{
    padding: 0;
    margin: 0;
@@ -10,10 +11,10 @@
 main{
     padding-bottom: 10px;
     
-}
+}*/
 
 /*Estilos footer*/
-footer{
+/*footer{
     width: 100%;
     height: 140px;
     background-color: rgb(143, 143, 143);
@@ -34,11 +35,11 @@ footer h3{
 footer h4{
     font-size: 10px;
 }
-
+*/
 
 
 /* Estilos de la navegacion */
-.navbar{
+/*.navbar{
     background-color: rgb(236, 236, 236);
     box-shadow: 1px 1px 3px ;
     
@@ -60,9 +61,9 @@ footer h4{
     background-color: rgb(150, 163, 132);
     border-radius: 3px;
 }
-
+*/
 /* Estilos del inicio*/
-
+/* 
 .bannerinicio img{
     width: 100%;
     height: 20%;
@@ -139,12 +140,12 @@ aside img{
     cursor: pointer;
     padding-bottom: 10px;
 }
-
+*/
 
 
 /*Estilos  de Contacto*/
 
-.titulocontacto{
+/*.titulocontacto{
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
     display: flex;
@@ -264,9 +265,9 @@ aside img{
     background-color: rgb(199, 36, 36);
     
 }
-
+*/
 /* Estilos de Productos */
-.tituloproductos{
+/*.tituloproductos{
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
     display: flex;
@@ -277,15 +278,10 @@ aside img{
     
 }
 
-.containerproductos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
+*/
 
 /* Estilos Nosotros */
-
+/*
 .titulonosotros{
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
@@ -304,7 +300,7 @@ aside img{
     
 }
 
-/* Responsive mq seccion nosotros*/
+ Responsive mq seccion nosotros
 @media (max-width: 800px) {
     .imgNosotros{
         width: 330px;
@@ -328,3 +324,4 @@ aside img{
         height: 140px;
     }
 }
+*/

@@ -1,0 +1,10 @@
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin alto-y-largo($width,$height){
+    width: $width;
+    height: $height;
+}

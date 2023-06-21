@@ -1,0 +1,234 @@
+.navbar {
+  background-color: rgb(236, 236, 236);
+  box-shadow: 1px 1px 3px;
+}
+
+.logotipo {
+  padding: 10px;
+}
+
+.nav-item a {
+  font-size: 18px;
+  color: rgb(43, 43, 43);
+  padding-left: 10px;
+}
+.nav-item:hover {
+  transition: all 0.3 ease;
+  font-size: 20px;
+  background-color: rgb(150, 163, 132);
+  border-radius: 3px;
+}
+
+footer {
+  width: 100%;
+  height: 140px;
+  background-color: rgb(143, 143, 143);
+  text-align: center;
+  padding: 30px;
+}
+footer h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+footer h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+footer h4 {
+  font-size: 10px;
+}
+
+@media (max-width: 800px) {
+  .mapcontacto {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  .imgNosotros {
+    width: 330px;
+    height: 230px;
+  }
+  .videoNosotros {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .imgNosotros {
+    width: 250px;
+    height: 140px;
+  }
+  .videoNosotros {
+    width: 250px;
+    height: 140px;
+  }
+}
+.titulossecciones, .titulonosotros, section .titulocontacto, .tituloproductos {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(41, 41, 41);
+}
+
+.botoncarrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.botoncarrito .inputcarrito {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  width: 180px;
+  height: 40px;
+}
+.botoncarrito .inputcarrito:hover {
+  transform: scale(0.9);
+  background-color: rgb(0, 212, 96);
+  color: white;
+}
+
+section .subtitulocontacto {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 15px;
+  color: rgb(41, 41, 41);
+  padding-bottom: 20px;
+}
+
+.sectionmapform .titulomap {
+  padding-bottom: 20px;
+}
+.sectionmapform .contenedormap {
+  width: 300px;
+  height: 400px;
+}
+.sectionmapform .mapcontacto {
+  padding-bottom: 20px;
+}
+.sectionmapform .form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sectionmapform .form .formulario {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 1px 1px 2px 1px;
+}
+.sectionmapform .form .formtitulo {
+  color: rgb(99, 49, 49);
+  display: flex;
+  justify-content: center;
+}
+.sectionmapform .form .forminput {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+}
+.sectionmapform .form .forminputmensaje {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+.sectionmapform .form .boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.sectionmapform .form .forminputenviar {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  width: 200px;
+  height: 40px;
+}
+.sectionmapform .form .forminputenviar:hover {
+  transform: scale(0.9);
+  background-color: rgb(199, 36, 36);
+  color: #ebedee;
+}
+
+.text p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(68, 68, 68);
+  font-size: large;
+  text-align: center;
+  margin: 20px;
+}
+
+.bannerinicio img {
+  width: 100%;
+  height: 20%;
+}
+
+.tituloinicio {
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  color: rgb(73, 39, 39);
+}
+.tituloinicio h5 {
+  padding-left: 43%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sectioninicio .imginicio {
+  height: 450px;
+  width: 450px;
+}
+
+.text p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(68, 68, 68);
+  font-size: large;
+  text-align: center;
+  margin: 20px;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+aside img {
+  width: 100%;
+  height: 400px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: rgb(245, 245, 245);
+}
+
+main {
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

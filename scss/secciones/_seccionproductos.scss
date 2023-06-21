@@ -1,0 +1,27 @@
+.tituloproductos{
+    @extend .titulossecciones;
+}
+
+.botoncarrito{
+    @include flex-row-center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+    font-size: 0.9rem ;
+    cursor: pointer;
+
+    .inputcarrito{
+        background-color:rgb(255, 255, 255);
+        border-radius: 3px;
+        @include alto-y-largo(180px,40px);
+    
+        &:hover{
+            transform: scale(0.9);
+            background-color: rgb(0, 212, 96);
+            color: white;
+            
+        }
+    }
+}
+
+
+

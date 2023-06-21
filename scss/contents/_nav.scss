@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(236, 236, 236);
+    box-shadow: 1px 1px 3px ;
+    
+}
+
+.logotipo{
+    padding: 10px;
+}
+
+.nav-item {
+    a{
+        font-size: 18px;
+        color: rgb(43, 43, 43);
+        padding-left: 10px;      
+    }
+
+    &:hover{
+        transition: all 0.3 ease;
+        font-size: 20px;
+        background-color: rgb(150, 163, 132);
+        border-radius: 3px;
+    }
+}
+
+

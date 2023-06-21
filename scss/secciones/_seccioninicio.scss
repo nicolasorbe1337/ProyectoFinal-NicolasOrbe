@@ -1,0 +1,47 @@
+.bannerinicio{
+    img{
+        width: 100%;
+        height: 20%;
+    }
+}
+.tituloinicio{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    color: rgb(73, 39, 39);
+
+    h5{
+        padding-left: 43%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+.sectioninicio{ 
+    .imginicio{
+       
+        height: 450px;
+        width: 450px;
+    }
+}
+.text {
+    p{
+        font-family: 'Poppins', sans-serif;
+        color: rgb(68, 68, 68);
+        font-size: large;
+        text-align: center;
+        margin: 20px;
+    }
+}
+aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+    img{
+        
+        width: 100%;
+        height: 400px;
+        cursor: pointer;
+        padding-bottom: 10px;
+    }
+}

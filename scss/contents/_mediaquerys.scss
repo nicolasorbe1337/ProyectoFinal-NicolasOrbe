@@ -1,0 +1,37 @@
+//Seccion Contacto
+@media (max-width: 800px) {
+    .mapcontacto{
+        width:250px ;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }    
+}
+
+//Seccion Nosotros
+@media (max-width: 800px) {
+    .imgNosotros{
+        width: 330px;
+        height: 230px;
+    }
+
+    .videoNosotros{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .imgNosotros{
+        width: 250px;
+        height: 140px;
+    }
+
+    .videoNosotros{
+        width: 250px;
+        height: 140px;
+    }
+}
+ 
+//Seccion inicio

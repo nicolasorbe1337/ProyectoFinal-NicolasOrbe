@@ -1,0 +1,30 @@
+//Imports
+@import 'contents/nav.scss';
+@import 'contents/footer.scss';
+@import 'contents/mediaquerys.scss';
+@import 'contents/mixins.scss';
+@import 'contents/extend.scss';
+@import 'secciones/seccionproductos.scss';
+@import 'secciones/seccioncontacto.scss';
+@import 'secciones/seccionnosotros.scss';
+@import 'secciones/seccioninicio.scss';
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+.body{
+     background-color: rgb(245, 245, 245);
+ }
+
+main{
+     padding-bottom: 10px;
+     
+ }

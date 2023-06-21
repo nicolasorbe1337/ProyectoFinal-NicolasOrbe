@@ -1,0 +1,13 @@
+.titulonosotros{
+    @extend .titulossecciones;
+}
+
+.text {
+    p{
+        font-family: 'Poppins', sans-serif;
+        color: rgb(68, 68, 68);
+        font-size: large;
+        text-align: center;
+        margin: 20px;
+    }
+}

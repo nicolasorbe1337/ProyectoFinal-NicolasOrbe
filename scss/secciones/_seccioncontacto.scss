@@ -1,0 +1,78 @@
+section{
+    .titulocontacto{
+        @extend .titulossecciones;
+    }
+
+    .subtitulocontacto{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 15px;
+        color: rgb(41, 41, 41);
+        padding-bottom: 20px; 
+    }
+}
+.sectionmapform{
+    .titulomap {
+        padding-bottom: 20px;  
+    }
+
+    .contenedormap{
+        @include alto-y-largo(300px,400px);
+    }
+
+    .mapcontacto{
+        padding-bottom: 20px;
+    }
+
+
+    .form{ 
+    
+        @include flex-row-center;
+        
+        .formulario{
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            @include alto-y-largo(450px,450px);
+            border-radius:10px;
+            padding: 10px;
+            background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+            box-shadow: 1px 1px 2px 1px;
+        }
+        .formtitulo{
+            color: rgb(99, 49, 49);
+            display: flex;
+            justify-content: center;   
+        }
+        .forminput{
+            font-family: 'Montserrat', sans-serif;
+            @include alto-y-largo(100%,35px);
+            margin-top: 10px;
+        }
+        .forminputmensaje{
+            margin-top: 20px;
+            @include alto-y-largo(100%,200px);
+        }
+        .boton{
+            @include flex-row-center;
+            padding-top: 20px;
+            cursor: pointer;
+        }
+        .forminputenviar{
+            background-color:rgb(255, 255, 255);
+            border-radius: 3px;
+            @include alto-y-largo(200px,40px);
+
+            &:hover{
+                transform: scale(0.9);
+                background-color: rgb(199, 36, 36);
+                color: #ebedee;
+                
+            }
+        }
+    }
+}
+
+
+
