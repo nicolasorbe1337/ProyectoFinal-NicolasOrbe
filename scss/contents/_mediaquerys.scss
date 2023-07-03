@@ -9,6 +9,33 @@
     }    
 }
 
+//Seccion Inicio
+@media (max-width: 800px) {
+    .imgInicio{
+        width: 330px;
+        height: 250px;
+    }
+
+    .aside{
+        img{
+            display: none;
+        }    
+    }
+}
+
+@media (max-width: 400px) {
+    .imgInicio{
+        width: 250px;
+        height: 180px;
+    }
+
+    .aside{
+        img{
+            display: none;
+        }   
+    }   
+}
+
 //Seccion Nosotros
 @media (max-width: 800px) {
     .imgNosotros{
@@ -34,4 +61,4 @@
     }
 }
  
-//Seccion inicio
+
