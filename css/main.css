@@ -64,6 +64,14 @@ footer h4 {
   .aside img {
     display: none;
   }
+  main .tituloinicio {
+    text-align: center;
+  }
+  main .tituloinicio h5 {
+    margin-right: 70px;
+    font-family: "Nunito", sans-serif;
+    color: rgb(73, 39, 39);
+  }
 }
 @media (max-width: 800px) {
   .imgNosotros {
@@ -114,6 +122,19 @@ footer h4 {
   transform: scale(0.9);
   background-color: rgb(0, 212, 96);
   color: white;
+}
+
+main .containerproductos1 {
+  padding-left: 10px;
+}
+main .containerproductos1 .card {
+  margin: 10px;
+}
+main .containerproductos2 {
+  padding-left: 10px;
+}
+main .containerproductos2 .card {
+  margin: 10px;
 }
 
 section .subtitulocontacto {
