@@ -65,12 +65,15 @@ footer h4 {
     display: none;
   }
   main .tituloinicio {
-    text-align: center;
-  }
-  main .tituloinicio h5 {
-    margin-right: 70px;
+    display: flex;
+    align-items: center;
     font-family: "Nunito", sans-serif;
     color: rgb(73, 39, 39);
+  }
+  main .tituloinicio h5 {
+    padding-left: 33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 800px) {
@@ -91,6 +94,34 @@ footer h4 {
   .videoNosotros {
     width: 250px;
     height: 140px;
+  }
+}
+@media (max-width: 768px) {
+  main .containerproductos1 {
+    padding-left: 100px;
+  }
+  main .containerproductos1 .card {
+    margin: 10px;
+  }
+  main .containerproductos2 {
+    padding-left: 100px;
+  }
+  main .containerproductos2 .card {
+    margin: 10px;
+  }
+}
+@media (max-width: 590px) {
+  main .containerproductos1 {
+    padding-left: 10px;
+  }
+  main .containerproductos1 .card {
+    margin: 10px;
+  }
+  main .containerproductos2 {
+    padding-left: 10px;
+  }
+  main .containerproductos2 .card {
+    margin: 10px;
   }
 }
 .titulossecciones, .titulonosotros, section .titulocontacto, .tituloproductos {
@@ -122,19 +153,6 @@ footer h4 {
   transform: scale(0.9);
   background-color: rgb(0, 212, 96);
   color: white;
-}
-
-main .containerproductos1 {
-  padding-left: 10px;
-}
-main .containerproductos1 .card {
-  margin: 10px;
-}
-main .containerproductos2 {
-  padding-left: 10px;
-}
-main .containerproductos2 .card {
-  margin: 10px;
 }
 
 section .subtitulocontacto {
